@@ -49,7 +49,7 @@
             name: chaos-operator
             repository: ${{ github.repository }}/helm-charts
             tag: ${{ github.ref_name }}
-            path: deploy/charts # Default charts/{name}
+            path: deploy/charts/chaos-operator # Default charts/{name}
             registry: ghcr.io
             registry_username:  ${{ github.repository_owner }}
             registry_password: ${{ secrets.GITHUB_TOKEN }}
